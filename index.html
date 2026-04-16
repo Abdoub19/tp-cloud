@@ -2,11 +2,50 @@
 <html>
 <head>
     <title>Apache2 Ubuntu Default Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+        .container {
+            margin-top: 50px;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: inline-block;
+        }
+        h1 {
+            color: #dd4814;
+        }
+        .btn {
+            background-color: #dd4814;
+            color: white;
+            padding: 10px 20px;
+            display: inline-block;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        .text {
+            max-width: 600px;
+            margin: auto;
+            color: #333;
+        }
+    </style>
 </head>
-<body style="text-align:center; font-family:Arial;">
-    <h1>It works!</h1>
-    <p>This is the default web page for this server.</p>
-    <p>The web server software is running but no content has been added yet.</p>
+<body>
+
+<div class="container">
+    <h1>Apache2 Default Page</h1>
+    <div class="btn">It works!</div>
+
+    <div class="text">
+        <p>This is the default welcome page used to test the correct operation of the Apache2 server.</p>
+        <p>If you can read this page, it means the Apache HTTP server installed at this site is working properly.</p>
+        <p>You should replace this file before continuing to operate your HTTP server.</p>
+    </div>
+</div>
+
 </body>
 </html>
-     
